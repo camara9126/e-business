@@ -32,3 +32,5 @@
                     <button type="submit" name="modifier" class="btn btn-warning">Modifier</button>
                 </form>
             </div>
+        </div>
+            
