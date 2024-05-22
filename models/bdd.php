@@ -146,7 +146,7 @@
     function produits(){
         global $bdd;
         try {
-            $req = $bdd->prepare("SELECT * FROM produits ORDER BY id DESC");
+            $req = $bdd->prepare("SELECT * FROM produits ORDER BY prix ASC");
     
             $req->execute();
     

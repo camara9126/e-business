@@ -9,7 +9,7 @@
         if ($user) {
            $_SESSION["user"]= $user; //utilisateur connecté
 
-           if ($user->matricule == "202100383") {
+           if ($user->matricule == "202100383" && $user->mdp == 2001) {
 
                 return header("Location: ?admin=home");
 
